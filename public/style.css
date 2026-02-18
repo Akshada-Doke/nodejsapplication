@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* HEADER */
+header {
+    height: 100vh;
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("https://images.unsplash.com/photo-1555992336-03a23c7b20d3");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+/* BUTTON */
+.btn {
+    margin-top: 25px;
+    padding: 14px 30px;
+    background: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #e60000;
+    transform: scale(1.08);
+}
+
+/* MENU SECTION */
+#menu {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    background: white;
+    width: 220px;
+    padding: 20px;
+    margin: 15px;
+    display: inline-block;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.menu-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    color: #555;
+}
+
+.menu-item:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* CONTACT */
+#contact {
+    background: #222;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+}
+
